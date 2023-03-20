@@ -1,0 +1,21 @@
+{
+	"tabWidth": 2,
+	"useTabs": true,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"arrowParents": "avoid",
+	"trailingComma": "all",
+	"semi": true,
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"/ui/",
+		"/hooks/",
+		"/screens/",
+		"/components/",
+		"^../(.*)",
+		"^./(.*)",
+		"/module.scss/"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
